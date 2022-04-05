@@ -8,10 +8,10 @@
     "preview": "npm run build && vite preview",
     "preview:dist": "vite preview",
     "deploy": "gh-pages -d dist",
-    "lint:eslint": "eslint --cache --max-warnings 0 \"{src,mock}/**/*.{vue,ts,tsx}\" --fix",
+    "lint:eslint": "eslint --cache --max-warnings 0 \"{src,mock}/**/*.{ts,tsx}\" --fix",
     "lint:lint-staged": "lint-staged",
-    "lint:prettier": "prettier --write  \"src/**/*.{js,json,tsx,css,less,scss,vue,html,md}\"",
-    "lint:stylelint": "stylelint --cache --fix \"**/*.{vue,less,postcss,css,scss}\" --cache --cache-location node_modules/.cache/stylelint/",
+    "lint:prettier": "prettier --write  \"src/**/*.{js,json,tsx,css,less,scss,html,md}\"",
+    "lint:stylelint": "stylelint --cache --fix \"**/*.{less,postcss,css,scss}\" --cache --cache-location node_modules/.cache/stylelint/",
     "prepare": "husky install",
     "test:gzip": "npx http-server dist --cors --gzip -c-1",
     "test:br": "npx http-server dist --cors --brotli -c-1"
