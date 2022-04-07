@@ -1,17 +1,9 @@
 node_modules
 .DS_Store
 dist
-.npmrc
 .cache
-
-tests/server/static
-tests/server/static/upload
-
-.local
-# local env files
-.env.local
-.env.*.local
-.eslintcache
+tests
+.vscode
 
 # Log files
 npm-debug.log*

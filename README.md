@@ -1,6 +1,6 @@
 ## vite2-react17-recoil-antd
 
-基于 vite2 react17recoil antd 开发前端基础项目框架
+基于 vite2 react17 recoil antd 开发前端基础项目框架
 
 ## 技术栈
 
